@@ -1,0 +1,7 @@
+interface:
+  display_name: "PropShow Paper Covers"
+  short_description: "为每期分别生成 16:9 与 4:3 纸艺封面"
+  icon_large: "./assets/preview.png"
+  default_prompt: "使用 $artifact-template-propshow-paper-covers，为视频分别生成 16:9 和 4:3 两张独立构图的纸艺封面。"
+policy:
+  allow_implicit_invocation: true
